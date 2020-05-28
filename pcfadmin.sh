@@ -154,7 +154,7 @@ echo "App .....: $APP"
 echo "Action ..: $ACTION"
 echo "#####################"
 
-read -p "Are you sure to continue? [Y|y] " -n 1 -r
+read -p "Warning!! Are you sure to continue? [y|n] " -n 1 -r
 echo    
 if [[ ! $REPLY =~ ^[Yy]$ ]]
 then

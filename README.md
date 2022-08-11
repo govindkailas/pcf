@@ -31,7 +31,7 @@ Examples
 ./pcfadmin.sh -o Finance -s stage -a all -act stop
 ```
 
-In the above example, it's going to stop all the apps under the Org `Finance` and Space `stage`. The script will also generate a log file in the csv format with that details of `org, space, app, action` 
+In the above example, it's going to stop all the apps under the Org `Finance` and Space `stage`. The script will also generate a log file in the csv format with the details of `org, space, app, action` 
 
 To delete all the apps under an org
 ------------------------------------
